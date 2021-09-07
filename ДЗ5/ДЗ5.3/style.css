@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu_bar div{
+    display: inline-block;
+    text-align: center;
+    margin: 0 1px 0 0;
+}
+.menu_bar{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    background: #a5cfec;
+    color: #4e63af;
+    padding: 10px 50px;
+    display: block;
+}
+.menu_bar a:hover{
+    background: #8b92af;
+    color: white;
+    text-decoration: underline;
+}

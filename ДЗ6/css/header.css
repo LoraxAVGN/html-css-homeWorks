@@ -1,0 +1,128 @@
+.everithing{
+    width: 1440px;
+    margin: auto;
+}
+
+header{
+    background: url(../images/dog.jfif) no-repeat;
+    max-width: 1440px;
+    min-width: 1440px;
+    margin-bottom: 45px;
+}
+
+.container{
+    max-width: 1160px;
+    margin-left: 120px;
+    position: relative;
+}
+
+.little-logo p{
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 29px;
+    color: #4757A0;
+}
+
+.little-logo>*{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.menu>*{
+    display: inline-block;
+    margin-left: 16px;
+}
+
+.menu a{
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 16px;
+    color: #4757A0;
+}
+
+.menu p{
+    color: #4757A0;
+}
+
+#menu-button{
+    background: #4757A0;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    padding: 6px 25px;
+}
+
+.menu{
+    position: absolute;
+    right: 0;
+    margin-top: 5px;
+}
+
+.little-logo, .menu{
+    display: inline-block;
+}
+
+.navigation{
+    background: #FBFBFD;
+    opacity: 0.9;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.14);
+    padding: 13px 0;
+}
+
+.menu{
+    cursor: default;
+}
+
+.menu a:hover{
+    background: #ADB2CA;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    padding: 2.5px 10px;
+    margin-right: -10px;
+    margin-left: 6px;
+}
+
+.big-logo img{
+    float: left;
+}
+
+#blue-word{
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 88px;
+    color: #4757A0;
+    text-shadow: 5px 7px 13px rgba(0, 0, 0, 0.41);
+}
+
+#pink-word{
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 88px;
+    color: #EF1366;
+    text-shadow: 5px 7px 13px rgba(0, 0, 0, 0.41);
+}
+
+#white-word{
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+#white-text{
+    font-size: 26px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.blur{
+    padding: 53px 0;
+    margin-top: 355px;
+    background: rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(63px);
+}

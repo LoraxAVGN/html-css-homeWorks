@@ -1,0 +1,92 @@
+body{
+    margin: 0;    
+}
+
+.conteiner{
+    background: linear-gradient(180deg, #FFFFFF -8.15%, #013378 89.85%);
+    padding: 118px 382px;
+}
+.papa{
+    width: 676px;
+    height: 471px;
+    background-color: white;
+    position: relative;
+    margin: auto;
+    z-index: 0;
+}
+.text p{
+    font-family: Roboto;
+    font-size: 18px;
+    line-height: 21px;
+    color: #013378;
+    margin: 1;
+}
+.text{
+    width: 500px;
+    height: 271px;
+    position: absolute;
+    left: 88px;
+    top: 100px;
+}
+.fructs{
+    width: 264px;
+    height: 212px;
+    position: absolute;
+    top: 316px;
+    left: 486px;
+}
+.list1{
+    width: 94px;
+    height: 92px;
+    transform: rotate(-180deg);
+    position: absolute;
+    top: -22px;
+    left: -62px;
+}
+.list2{
+    width: 78px;
+    height: 75px;
+    transform: rotate(-180deg);
+    position: absolute;
+    top: 13px;
+    left: 32px;
+}
+.list3{
+    width: 78px;
+    height: 75px;
+    transform: matrix(-0.94, 0.33, 0.33, 0.94, 0, 0);
+    position: absolute;
+    top: 88px;
+    left: -40px;
+    z-index: 1;
+}
+.ddd{
+    width: 674px;
+    margin: auto;
+    position: relative;
+    z-index: 0;
+}
+.mistic{
+    width: 112.46px;
+    height: 221.94px;
+    transform: rotate(-47.4deg);
+    position: absolute;
+    top: 104.5px;
+    left: -80px;
+}
+.buttom{
+    width: 328px;
+    height: 60px;
+    background: #FF7A00;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 80px;
+    text-align: center;
+    vertical-align: middle;
+}
+.buttom p{
+    display: inline-block;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FCFCFC;
+}

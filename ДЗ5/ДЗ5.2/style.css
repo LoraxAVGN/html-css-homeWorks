@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+p, h3{
+    margin-bottom: 10px;
+}
+.colls-summ{
+    margin: 0  auto;
+    max-width: 1160px;
+    width: 100%;
+    font-size: 18;
+    color: black;
+    font-size: 0;
+    min-width: 1200px;
+}
+.left-block, .center, .right-block{
+    padding: 20px;
+    display: inline-block;
+    font-size: 18px;
+    vertical-align: top;
+}
+.left-block{
+    background: rgb(253, 214, 214);
+    width: 30%;
+}
+.center{
+    background: rgb(125, 185, 253);
+    width: 50%;
+}
+.right-block{
+    background: rgb(255, 145, 0);
+    width: 20%;
+    height: 139px;
+}

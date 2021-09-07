@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>                  
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+    
+    <!-- 1. метод display: none; -->
+
+    <nav class="one">
+        <ul class="topmenu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Work ▾</a>
+                <ul class="submenu">
+                    <li><a href="#">Item 1</a></li>
+                    <li><a href="#">Item 2</a></li>
+                    <li><a href="#">Item 3</a></li>
+                    <li><a href="#">Item 3</a></li>
+                </ul>
+            </li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- 2. метод opacity: 0; -->
+
+    <nav class="two">
+        <ul class="topmenu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Work</a></li>
+            <li><a href="#">About ▾</a>
+                <ul class="submenu">
+                    <li><a href="#">Item 1</a></li>
+                    <li><a href="#">Item 2</a></li>
+                    <li><a href="#">Item 3</a></li>
+                    <li><a href="#">Item 3</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- 3. метод transform: scaleY(0); -->
+
+    <nav class="three">
+        <ul class="topmenu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Work</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact ▾</a>
+                <ul class="submenu">
+                    <li><a href="#">Item 1</a></li>
+                    <li><a href="#">Item 2</a></li>
+                    <li><a href="#">Item 3</a></li>
+                    <li><a href="#">Item 3</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- 4. Подъезжающее суб-меню translate(); -->
+
+    <nav class="four">
+        <ul class="topmenu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Work</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog ▾</a>
+                <ul class="submenu">
+                    <li><a href="#">Item 1</a></li>
+                    <li><a href="#">Item 2</a></li>
+                    <li><a href="#">Item 3</a></li>
+                    <li><a href="#">Item 3</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+</body>
+</html>

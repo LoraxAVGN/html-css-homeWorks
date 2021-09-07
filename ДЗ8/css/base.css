@@ -1,0 +1,51 @@
+
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@font-face {
+    font-family: 'M PLUS 1p';
+    src: local('Mplus 1p'), local('Mplus1p-Regular'), url(../fonts/Mplus1p.woff2) format('woff2'), url('Mplus1p.woff') format('woff'), url('Mplus1p.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'M PLUS 1p';
+    src: local('Mplus 1p Medium'), local('Mplus1p-Medium'), url(../fonts/Mplus1pmedium.woff2) format('woff2'), url('Mplus1pmedium.woff') format('woff'), url('Mplus1pmedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'M PLUS 1p';
+    src: local('Mplus 1p ExtraBold'), local('Mplus1p-ExtraBold'), url(../fonts/Mplus1pextrabold.woff2) format('woff2'), url('Mplus1pextrabold.woff') format('woff'), url('Mplus1pextrabold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+/* My reset */
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'M PLUS 1p';
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1146px;
+    margin: auto;
+}

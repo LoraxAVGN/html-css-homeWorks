@@ -1,0 +1,64 @@
+footer{
+    background: #F61067;
+}
+
+.redy{
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 140.62%;
+    color: #FFFFFF;
+}
+
+.sign-up{
+    font-size: 18px;
+    line-height: 140.62%;
+    color: #FFFFFF;
+}
+
+.button1{
+    background: #2E145B;
+    border-radius: 5px;
+    width: 200px;
+    padding: 13.36px 36px 14.15px;
+
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.button2{
+    background: #F61067;
+    border: 1px solid #2E145B;
+    border-radius: 5px;
+    width: 200px;
+    padding-top: 13.36px;
+    padding-bottom: 14.15px;
+    text-align: center;
+
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #30233D;
+}
+
+.footer-items{
+    display: flex;
+    justify-content: space-between;
+    padding: 130px 64px;
+}
+
+.buttons{
+    width: 416px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button1:hover{
+    background: #241a2e;
+}
+
+.button2:hover{
+    background: #cf1059;
+}

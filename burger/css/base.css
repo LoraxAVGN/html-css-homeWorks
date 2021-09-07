@@ -1,0 +1,117 @@
+*{ box-sizing: border-box; /* часто сразу задается, но вообще - по ситуации */}
+
+body{
+    font-family: '        ';
+}
+
+a{
+    text-decoration: none;
+}
+
+/* burger */
+
+.group-burger{
+    width:228px;
+    height: 254;
+    margin: 44px 60px;
+}
+
+.burger{
+    font-size: 40px;
+    background-color: royalblue;
+    color: white;
+    border-radius: 50%;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.burger:hover{
+    opacity: 0.5;
+}
+
+.group-burger{
+    position: relative;
+}
+
+ul.menu-burger{
+    width: 300px;
+    padding: 30px 40px;
+    text-align: center;
+    list-style-type: none;
+    background: gainsboro;
+
+    position: absolute;
+    top: 30px;
+    left: 60px;
+}
+
+.menu-burger li{
+    padding: 5px;
+    margin: 30px 0;
+}
+
+.menu-burger li a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+.menu-burger li a:hover{
+    color: royalblue;
+    border-bottom: 1px solid royalblue;
+    cursor: pointer;
+}
+
+.click-close{
+    font-size: 30px;
+    padding: 0 5px;
+    color: royalblue;
+    position: absolute;
+    right: -290px;
+    top: 40px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.click-close:hover{
+    opacity: 0.5;
+}
+
+/*  */
+
+.click-close{
+    display: none;
+}
+
+ul.menu-burger{
+    opacity: 0;
+    transition: all 0.5s;
+    z-index: -1;
+}
+
+/*  */
+
+#burg:checked~.group-burger .menu-burger{
+    opacity: 1;
+    z-index: 1;
+}
+
+#burg:checked~.group-burger .click-close{
+    display: block;
+}
+
+#burg:checked~.group-burger .burger{
+    pointer-events: none;
+    cursor: default;
+}
+
+#close:checked~.group-burger .menu-burger{
+    opacity: 0;
+    z-index: -1;
+}
+
+#close:checked~.group-burger .click-close{
+    display: none;
+}
