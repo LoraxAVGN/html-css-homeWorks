@@ -1,0 +1,160 @@
+/* Header */
+
+header{
+    background: #EFEFEF;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    padding: 57px 0;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 24px;
+    line-height: 178.2%;
+    letter-spacing: 2px;
+    color: #30124E;
+    transition: .2s;
+}
+
+.logo:hover{
+    color: #675776;
+}
+
+.menu, .menu-burger{
+    width: 407px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a, .menu-burger a{
+    font-size: 16px;
+    line-height: 207.9%;
+    letter-spacing: 2px;
+    color: #30233D;
+    position: relative;
+    transition: .2s;
+}
+
+.menu a:before, .menu-burger a:before{
+    content: '';
+    width: 35px;
+    height: 1px;
+    background-color: #F61067;;
+    position: absolute;
+    left: calc(50% - 35px / 2);
+    bottom: 0;
+    opacity: 0;
+    transition: .4s;
+}
+
+.menu a:hover:before, .menu-burger a:hover:before{
+    opacity: 1;
+}
+
+.menu a:hover, .menu-burger a:hover{
+    color: #675776;
+}
+
+.tel{
+    width: 207px;
+    background: url(../images/tel.svg) 0 5px no-repeat;
+    font-size: 16px;
+    line-height: 207.9%;
+    letter-spacing: 2px;
+    color: #30233D;
+    text-align: right;
+    transition: .2s;
+}
+
+.tel:hover{
+    background: url(../images/tel-hover.svg) 0 5px no-repeat;
+    color: #675776;
+}
+
+.burger{
+    background: url(../images/Burger.svg) no-repeat;
+    width: 26px;
+    height: 16px;
+    display: none;
+    transition: .3s;
+}
+
+.burger:hover{
+    background: url(../images/Burger-hover.svg) no-repeat;
+    cursor: pointer;
+}
+
+/* Burger */
+    .group-burger{
+        width: 228px;
+        position: relative;
+    }
+
+    .click-close{
+        background: url(../images/exit.svg) no-repeat;
+        width: 14.14px;
+        height: 15px;
+
+        position: absolute;
+        top: 16px;
+        right: 16px;
+        transition: .3s;
+    }
+
+    .click-close:hover{
+        background: url(../images/exit-hover.svg) no-repeat;
+        cursor: pointer;
+    }
+
+    .menu-burger{
+        flex-direction: column;
+        align-items: center;
+        background: #F4F4F4;
+        padding: 60px 44px;
+        width: 228px;
+
+        position: absolute;
+        top: 30px;
+        left: -200px;
+    }
+
+    .group-burger{
+        display: none;
+    }
+
+    #burg, #close{
+        display: none;
+    }
+
+    .menu-burger{
+        opacity: 1;
+        transition: all .5s;
+        z-index: -1;
+    }
+
+    #burg:checked~.group-burger .menu-burger{
+        opacity: 1;
+        z-index: 1;
+    }
+    
+    #burg:checked~.group-burger .click-close{
+        display: block;
+    }
+    
+    #burg:checked~.group-burger .burger{
+        pointer-events: none;
+        cursor: default;
+    }
+    
+    #close:checked~.group-burger .menu-burger{
+        opacity: 0;
+        z-index: -1;
+    }
+    
+    #close:checked~.group-burger .click-close{
+        display: none;
+    }

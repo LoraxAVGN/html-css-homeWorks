@@ -1,0 +1,25 @@
+/* @import url('             '); можно подключить шрифт с сайта https://fonts.google.com/  */
+/* @import url('             '); можно подключить шрифт с сайта https://fonts.google.com/  */
+
+*{ box-sizing: border-box; /* часто сразу задается, но вообще - по ситуации */}
+
+body{
+    font-family: '        ';
+}
+
+h1{
+
+}
+h2{
+
+}
+h3{
+
+}
+
+
+a{
+    text-decoration: none;
+}
+
+

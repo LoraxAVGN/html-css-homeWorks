@@ -1,0 +1,75 @@
+/* Footer */
+
+footer{
+    background: #290F46;
+    padding: 82px 0;
+}
+
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.coperate{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 163.35%;
+    color: #FCFCFC;
+}
+
+.messengers{
+    width: 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.messengers a{
+    transition: .2s;
+}
+
+.soc1{
+    width: 38px;
+    height: 21.72px;
+    background: url(../images/soc1.svg) no-repeat;
+}
+
+.soc1:hover{
+    background: url(../images/soc1-hover.svg) no-repeat;
+}
+
+.soc2{
+    width: 35px;
+    height: 28.55px;
+    background: url(../images/soc2.svg) no-repeat;
+}
+
+.soc2:hover{
+    background: url(../images/soc2-hover.svg) no-repeat;
+}
+
+.soc3{
+    width: 35px;
+    height: 35px;
+    background: url(../images/soc3.svg) no-repeat;
+}
+
+.soc3:hover{
+    background: url(../images/soc3-hover.svg) no-repeat;
+}
+
+.soc4{
+    width: 35px;
+    height: 35px;
+    background: url(../images/soc4.svg) no-repeat;
+}
+
+.soc4:hover{
+    background: url(../images/soc4-hover.svg) no-repeat;
+}
+
+header, article, .we-are, .write-us, footer{
+    padding-left: 10px;
+    padding-right: 10px;
+}

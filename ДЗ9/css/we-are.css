@@ -1,0 +1,81 @@
+/* We are */
+
+.container3{
+    max-width: 990px;
+    margin: 0 auto;
+}
+
+.we-are{
+    background: #290F46;
+    padding: 107px 0 144px;
+}
+
+.we-are h2{
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 207.9%;
+    letter-spacing: 6px;
+    color: #F61067;
+    padding-left: 53px;
+    margin-bottom: 46px;
+}
+
+.we-are h3{
+    font-size: 18px;
+    line-height: 21px;
+    color: #30233D;
+    padding-left: 20px;
+}
+
+.papa{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 23px;
+    flex-wrap: wrap;
+}
+
+.profil p{
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #776C82;
+}
+
+.bottom-text{
+    margin-top: 16px;
+}
+
+.profil{
+    background: white;
+    padding: 43px 47px 55px;
+    max-width: 425px;
+}
+
+.profil-ava{
+    display: flex;
+    align-items: center;
+    margin-bottom: 23px;
+}
+
+.swich1{
+    background: url(../images/Left\ Stroke.svg) no-repeat;
+    width: 29.27px;
+    height: 51.55px;
+    transition: .2s;
+}
+
+.swich1:hover{
+    background: url(../images/Left\ Stroke\ Hover.svg);
+}
+
+.swich2{
+    background: url(../images/Right\ Stroke.svg) no-repeat;
+    width: 29.27px;
+    height: 51.55px;
+    transition: .2s;
+}
+
+.swich2:hover{
+    background: url(../images/Right\ Stroke\ Hover.svg);
+}
